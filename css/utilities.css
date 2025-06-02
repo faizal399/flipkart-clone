@@ -1,0 +1,9 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* variable for background-color */
+:root {
+    --main-bg-color: #2874f0;
+}

@@ -1,0 +1,34 @@
+@media screen and (max-width:900px) {
+    nav{
+        flex-direction: column;
+        align-items:flex-start ;
+        padding: 10px;
+        justify-content: center;
+        height: auto;
+    }
+    nav ul {
+        align-self: flex-end;
+        margin: 10px 0;
+        align-self: center;
+    }
+    .search{
+        width: 100%;
+        align-self: center;
+         padding: 0 0 0 14vw;
+    }
+    .logo{
+        width:auto;
+        margin-bottom: 10px;
+        align-self: center;
+    }
+    .search input {
+        width: 80%;
+    }
+    nav ul li{
+        margin: 0;
+        padding: 5px 7vw;
+    }
+    header{
+        height: 22vh;
+    }
+}
